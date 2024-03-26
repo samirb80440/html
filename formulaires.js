@@ -33,7 +33,7 @@ if(resultat3==false){
 const choixElement= document.getElementById('Choisssez')
 const textareaElement=document.getElementById('Sélectionnez')
 
-choixElement.addEventListener('change',() => {
+/*choixElement.addEventListener('change',() => {
 const choix=choixElement.value;
 if (choix!== "choix0") {
     textareaElement.style.dislplay ="block";
@@ -42,7 +42,7 @@ if (choix!== "choix0") {
 }
 
 });
-
+*/
 
 
 
