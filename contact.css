@@ -1,0 +1,24 @@
+fieldset {
+    width: 560px;
+
+}
+
+label {
+    display:inline-block;
+    align-items: center;
+    width: 180px;
+    margin: 1px;
+    margin-right: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}    
+p{
+    color: red;
+}
+
+div{
+    color: red;
+    display: flex;
+    float: right;
+
+}

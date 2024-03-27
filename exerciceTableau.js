@@ -45,7 +45,7 @@ function strtok(str1,str2,n)
 }
 str1=strtok
 console.log(strtok (str1, ";", 3))
-
+*/
 
 var myTableau=[];
 var total=0
@@ -63,4 +63,4 @@ console.log(total)
 console.log(total/myTableau.length)
 console.log(myTableau)
   
- */
+ 
