@@ -34,11 +34,11 @@ const choixElement = document.getElementById("Choissez");
 const textareaElement = document.getElementById("Sélectionnez");
 
 choixElement.addEventListener("change", () => {
-  const choix = choixElement.value;
-  if (choix !== "Choissis") {
-    textareaElement.style.dislplay = "block";
+  //const choix = choixElement.value;
+  //if (choix !== "Choissis") {
+    //textareaElement.style.dislplay = "block";
     re.remove("Choissis");
-  } else {
-    textareaElement.style.display = "none";
-  }
-});
+  //} else {
+    //textareaElement.style.display = "none";
+  })
+//};
