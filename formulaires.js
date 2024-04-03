@@ -5,12 +5,12 @@ function verif2() {
   FiltreEmail = new RegExp("^[a-z0-9.-]+@[a-z0-9.-]{2,}.[a-z]{2,4}$")
   // Filtretel=new RegExp("^0[1-9]([-. ]?\d{2}){4}$")
   resultat = Filtre.test(Coordonées)
-  if (Coordonées == false) {
+  if (resultat == false) {
     alert("Entrez le nom de la société");
   }
   Coordonées = document.getElementById("Personne").value
   resultat = Filtre.test(Coordonées)
-  if (Coordonées == false) {
+  if (resultat == false) {
     alert("Entrez le nom de la Personne à contacter")
   }
   Coordonées = document.getElementById("Codepostal").value
@@ -20,7 +20,7 @@ function verif2() {
   }
   Coordonées = document.getElementById("Ville").value
   resultat = Filtre.test(Coordonées)
-  if (Coordonées == false) {
+  if (resultat == false) {
     alert("Entrez la ville");
   }
   Coordonées = document.getElementById("Email").value
@@ -31,7 +31,7 @@ function verif2() {
 }
 const re = document.getElementById("Choissis")
 const choixElement = document.getElementById("Choissez");
-const textareaElement = document.getElementById("Sélectionnez");
+//const textareaElement = document.getElementById("Sélectionnez");
 
 choixElement.addEventListener("change", () => {
   //const choix = choixElement.value;
